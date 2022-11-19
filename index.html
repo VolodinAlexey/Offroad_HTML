@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="Volodin Alexey" />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <title>Наша поездка в горный Алтай</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/4.6/examples/carousel/"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Главная</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Фотоальбом <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Exam_HTML4/Authorization/index.html"
+                >Регистрация</a
+              >
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input
+              class="form-control mr-sm-2"
+              type="text"
+              placeholder="Поиск"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Поиск
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/30378381.jpg" />
+
+            <title></title>
+            <rect width="100%" height="100%" fill="#777" />
+            <text x="50%" y="50%" fill="#777" dy=".3em"></text>
+            <!-- </svg> -->
+
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>горный Алтай.</h1>
+                <p>
+                  Это рассказ о нашей поездке по долинам и вершинам края с
+                  уникальными месторождениями яшмы, малахита.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#Alt"
+                    >Узнать подробнее...</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/30378481.jpg" />
+            <title></title>
+            <rect width="100%" height="100%" fill="#777" />
+            <text x="50%" y="50%" fill="#777" dy=".3em"></text>
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Монголия.</h1>
+                <p>
+                  Приглашаем окунуться в мир природы, её девственной чистотой и
+                  безграничных просторов.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#Mon"
+                    >Заводи, поехали...</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/30378482.jpg" />
+            <title></title>
+            <rect width="100%" height="100%" fill="#777" />
+            <text x="50%" y="50%" fill="#777" dy=".3em"></text>
+            <!-- </svg> -->
+
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>Хибины.</h1>
+                <p>
+                  Поездка на крупнейший горный массив на Кольском полуострове.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#Hib"
+                    >Пакуем кофры...</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#myCarousel"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#myCarousel"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="image/foto.jpg" />
+
+            <h2>ФОТО И ВИДЕО</h2>
+            <p>
+              Вы можете сделать незабываемые фотографии или снять видео о Вашем
+              увлекательном приключении на квадроцикле!
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">Подробнее &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="image/квадро.jpg" />
+
+            <h2>НАША ТЕХНИКА</h2>
+            <p>
+              В нашем прокате используются новые квадроциклы CFMOTO 500 2A. Эти
+              квадроциклы двухместные и имеют подключаемый полный привод с
+              блокировкой дифференциала.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">Подробнее &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="image/шлем.jpg" />
+            <h2>ЗАЩИТНАЯ ЭКИПИРОВКА</h2>
+            <p>
+              Мы применяем экипировку передовых брендов: шлемы, куртка, штаны.
+              Водонепроницаемая защита в холод и жару
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">Подробнее &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+
+        <!-- ссылка на Алтай -->
+        <a name="Alt"></a>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Наше путешествие на Алтай.
+              <!-- <span class="text-muted">ItвЂ™ll blow your mind.</span> -->
+            </h2>
+
+            <p class="lead">
+              Поехать на Алтай я собирался не раз, точнее, четыре года подряд,
+              но по разным причинам поездка откладывалась. Цели были разные.
+              Одни друзья, кто уже бывал на родине Чингисхана, звали на
+              незабываемую рыбалку на огромного тайменя и бесчисленного ленка,
+              другие говорили, что нужно непременно насладиться красотами
+              первозданной природы и, конечно, побывать на берегах младшего
+              брата Байкала — жемчужине Монголии озере Хубсугул. Первый раз я
+              приехал в Монголию 9 февраля 2018 года с целью подняться на высшую
+              точку Восточных Саян — гору Мунку-Сардык. Пробыли мы в стране
+              несколько дней, но дальше подножия Мунку-Сардык и поселка Ханх не
+              выдвигались. Понять и прочувствовать Монголию тогда не удалось, но
+              я был очень рад, что она хотя бы пустила меня! Надежда на новую
+              встречу не оставляла…
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="image/3037850.jpg" height="350" width="450" />
+          </div>
+        </div>
+
+        <!-- ссылка на Монголия -->
+        <a name="Mon"></a>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Подготовка для Монголии.</h2>
+            <p class="lead">
+              Началась подготовка к путешествию. В любом неизвестном походе
+              всегда важен маршрут и его знание. Вот с него-то и началась
+              подготовка к поездке. Из нашей команды маршрут никто не знал. Его
+              пришлось вытаскивать из других квадросообществ: собрать совещание,
+              пригласить человека, который по нему ездил и подробно расскажет
+              нам, куда и как ехать, где стоянки, заправки, что с собой взять,
+              поведает обо всех тонкостях и особенностях этого путешествия.
+              Николай организовал встречу с таким человеком у себя в офисе.
+              После продолжительного обсуждения карты Хубсугула и самого
+              маршрута, мы между делом упомянули, что поедем с телегами, а также
+              возьмем жен и детей. Одна из телег будет грузопассажирская, в ней
+              будут ехать некоторые наши участники. До сих пор помню его
+              выражение лица! Он очень выразительно посмотрел на нас и с
+              недоумением спросил: «Вы серьезно? Вы что, психи? Никакие телеги
+              там не проедут, вы все оторвете к чертям собачьим! И детей
+              замучаете. Мы ходим только с мужиками на трех квадроциклах и
+              всегда приезжаем без сил. Ребята, какие телеги, какие дети?! Вы
+              столько геморроя хапнете!»
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="image/3037852.jpg" height="350" width="450" />
+          </div>
+        </div>
+
+        <!-- ссылка на Хибин -->
+        <a name="Hib"></a>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Как проехать в Хибины.
+              <!-- <span class="text-muted">Checkmate.</span> -->
+            </h2>
+            <p class="lead">
+              Мы крепко задумались насчет этой идеи. Его доводы заставили нас с
+              большей ответственностью подойти к подготовке телег и тщательно
+              проверить все технические узлы на них. А вот от мысли взять с
+              собой детей не отказались, просто решили захватить больше нужной
+              для них одежды — и будь что будет! Маршрут теперь известен и
+              понятен. Оставалась техническая часть подготовки. Саша — идейный
+              вдохновитель этой поездки, а также конструктор-изобретатель
+              технического средства, без которого этот вояж был бы менее
+              комфортным, а порой даже (при том количестве человек) вообще
+              невозможным. Идею создания такого техсредства он вынашивал
+              полгода. Проект, чертежи, запчасти… — все сам рисовал, собирал по
+              крупицам, советовался с другими специалистами-кулибиными из этой
+              области.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="image/3037874.jpg" height="350" width="450" />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Наверх</a></p>
+        <p>
+          &copy; 2022 Academi TOP. &middot;
+          <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+        </p>
+      </footer>
+    </main>
+
+    <div class="select1"></div>
+    <div class="select1"></div>
+    <div class="select1"></div>
+    <div class="select2"></div>
+    <div class="select2"></div>
+
+    <ul id="nav">
+      <li class="item"><span class="span-text">Text 1</span></li>
+      <li class="item"><span class="span-text">Text 2</span></li>
+      <li class="item"><span class="span-text">Text 3</span></li>
+      <li class="item"><span class="span-text">Text 4</span></li>
+    </ul>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
